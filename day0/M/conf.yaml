@@ -6,7 +6,8 @@ compile:
   java: ''
   pas: -O2
   py: ''
-data: []
+data: 
+- cases: [1]
 folder: problem
 memory limit: 512 MiB
 name: M
@@ -17,5 +18,8 @@ time limit: 1.0
 title:
   zh-cn: 用于试题标题的中文名称
 type: program
-users: {}
+users:
+  werkeytom:
+    biaocheng: {expected: == 100, path: werkeytom/std.cpp}
+    baoli: {expected: == 0, path: werkeytom/wa.cpp}
 version: 2

@@ -30,16 +30,8 @@
 
 {{ s('input format') }}
 
-{{ self.input_file('M.in') }}
-
 输入只有一行，是无意义的字符串，你不必读入。
 
 {{ s('output format') }}
 
-{{ self.output_file('M.out') }}
-
 输出一个字符串表示写下自白书的人的名字拼音缩写，全部采用小写。如长颈鹿应该输出 changjinglu。
-
-{{ s('hint') }}
-
-这里是一个非常温馨的提示。

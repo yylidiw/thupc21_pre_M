@@ -1,4 +1,4 @@
-{{ self.title(''自白书'') }}
+{{ self.title() }}
 
 {{ s('background') }}
 
